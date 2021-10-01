@@ -1,0 +1,11 @@
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\bin\Debug\Proyecto BlindScanner.exe.config
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\bin\Debug\Proyecto BlindScanner.exe
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\bin\Debug\Proyecto BlindScanner.pdb
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\obj\Debug\Proyecto BlindScanner.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\obj\Debug\Proyecto_BlindScanner.frmRegistro.resources
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\obj\Debug\Proyecto_BlindScanner.frmLogin.resources
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\obj\Debug\Proyecto_BlindScanner.Properties.Resources.resources
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\obj\Debug\Proyecto BlindScanner.csproj.GenerateResource.cache
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\obj\Debug\Proyecto BlindScanner.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\obj\Debug\Proyecto BlindScanner.exe
+C:\Users\ALUMNO\source\repos\Proyecto BlindScanner\obj\Debug\Proyecto BlindScanner.pdb
