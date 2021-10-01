@@ -31,7 +31,10 @@ namespace Proyecto_BlindScanner
 
             if (dr.Read() == true)
             {
-                new menú().Show();
+                //new menú().Show();
+                menú menuForm = new menú();
+                menuForm.UserName = txtNomUsuario.Text;
+                menuForm.Show();
                 this.Hide();
             }
             else
