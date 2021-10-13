@@ -39,6 +39,7 @@ namespace Proyecto_BlindScanner
             this.btnRegistrarse = new System.Windows.Forms.Button();
             this.lblConfContraseña = new System.Windows.Forms.Label();
             this.txtConfContraseña = new System.Windows.Forms.TextBox();
+            this.checkbxMC = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lblRegistrarse
@@ -115,7 +116,7 @@ namespace Proyecto_BlindScanner
             // lblConfContraseña
             // 
             this.lblConfContraseña.AutoSize = true;
-            this.lblConfContraseña.Location = new System.Drawing.Point(67, 245);
+            this.lblConfContraseña.Location = new System.Drawing.Point(67, 230);
             this.lblConfContraseña.Name = "lblConfContraseña";
             this.lblConfContraseña.Size = new System.Drawing.Size(110, 13);
             this.lblConfContraseña.TabIndex = 8;
@@ -123,17 +124,29 @@ namespace Proyecto_BlindScanner
             // 
             // txtConfContraseña
             // 
-            this.txtConfContraseña.Location = new System.Drawing.Point(68, 261);
+            this.txtConfContraseña.Location = new System.Drawing.Point(68, 246);
             this.txtConfContraseña.Name = "txtConfContraseña";
             this.txtConfContraseña.PasswordChar = '●';
             this.txtConfContraseña.Size = new System.Drawing.Size(100, 20);
             this.txtConfContraseña.TabIndex = 9;
+            // 
+            // checkbxMC
+            // 
+            this.checkbxMC.AutoSize = true;
+            this.checkbxMC.Location = new System.Drawing.Point(198, 274);
+            this.checkbxMC.Name = "checkbxMC";
+            this.checkbxMC.Size = new System.Drawing.Size(117, 17);
+            this.checkbxMC.TabIndex = 10;
+            this.checkbxMC.Text = "Mostrar contraseña";
+            this.checkbxMC.UseVisualStyleBackColor = true;
+            this.checkbxMC.CheckedChanged += new System.EventHandler(this.checkbxMC_CheckedChanged);
             // 
             // frmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(853, 458);
+            this.Controls.Add(this.checkbxMC);
             this.Controls.Add(this.txtConfContraseña);
             this.Controls.Add(this.lblConfContraseña);
             this.Controls.Add(this.btnRegistrarse);
@@ -164,6 +177,7 @@ namespace Proyecto_BlindScanner
         private System.Windows.Forms.Button btnRegistrarse;
         private System.Windows.Forms.Label lblConfContraseña;
         private System.Windows.Forms.TextBox txtConfContraseña;
+        private System.Windows.Forms.CheckBox checkbxMC;
     }
 }
 

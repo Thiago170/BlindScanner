@@ -50,5 +50,17 @@ namespace Proyecto_BlindScanner
             new frmRegistro().Show();
             this.Hide();
         }
+
+        private void checkbxMC_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkbxMC.Checked)
+            {
+                txtContraseña.PasswordChar = '\0';
+            }
+            else
+            {
+                txtContraseña.PasswordChar = '•';
+            }
+        }
     }
 }

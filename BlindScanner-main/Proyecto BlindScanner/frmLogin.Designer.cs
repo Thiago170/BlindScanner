@@ -37,6 +37,7 @@ namespace Proyecto_BlindScanner
             this.txtNomUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnIniciaSesión = new System.Windows.Forms.Button();
+            this.checkbxMC = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lblIniciaSesión
@@ -109,11 +110,23 @@ namespace Proyecto_BlindScanner
             this.btnIniciaSesión.UseVisualStyleBackColor = true;
             this.btnIniciaSesión.Click += new System.EventHandler(this.btnIniciaSesión_Click);
             // 
+            // checkbxMC
+            // 
+            this.checkbxMC.AutoSize = true;
+            this.checkbxMC.Location = new System.Drawing.Point(197, 211);
+            this.checkbxMC.Name = "checkbxMC";
+            this.checkbxMC.Size = new System.Drawing.Size(117, 17);
+            this.checkbxMC.TabIndex = 7;
+            this.checkbxMC.Text = "Mostrar contraseña";
+            this.checkbxMC.UseVisualStyleBackColor = true;
+            this.checkbxMC.CheckedChanged += new System.EventHandler(this.checkbxMC_CheckedChanged);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(797, 462);
+            this.Controls.Add(this.checkbxMC);
             this.Controls.Add(this.btnIniciaSesión);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtNomUsuario);
@@ -140,5 +153,6 @@ namespace Proyecto_BlindScanner
         private System.Windows.Forms.TextBox txtNomUsuario;
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Button btnIniciaSesión;
+        private System.Windows.Forms.CheckBox checkbxMC;
     }
 }
