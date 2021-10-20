@@ -48,11 +48,11 @@ namespace Proyecto_BlindScanner
             this.lblNomUsuario.AutoSize = true;
             this.lblNomUsuario.BackColor = System.Drawing.Color.Transparent;
             this.lblNomUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblNomUsuario.Font = new System.Drawing.Font("Atkinson Hyperlegible", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNomUsuario.ForeColor = System.Drawing.Color.White;
             this.lblNomUsuario.Location = new System.Drawing.Point(247, 90);
             this.lblNomUsuario.Name = "lblNomUsuario";
-            this.lblNomUsuario.Size = new System.Drawing.Size(178, 90);
+            this.lblNomUsuario.Size = new System.Drawing.Size(180, 73);
             this.lblNomUsuario.TabIndex = 0;
             this.lblNomUsuario.Text = "aaaa";
             this.lblNomUsuario.Click += new System.EventHandler(this.lblNomUsuario_Click);

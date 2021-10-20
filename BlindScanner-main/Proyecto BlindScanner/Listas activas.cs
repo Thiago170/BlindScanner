@@ -23,5 +23,16 @@ namespace Proyecto_BlindScanner
             menuForm.Show();
             this.Hide();
         }
+
+        private void btnCrear_Click(object sender, EventArgs e)
+        {
+            new ListasCreador().Show();
+            this.Hide();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
